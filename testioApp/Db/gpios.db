@@ -1,0 +1,4 @@
+record(bo, "GPIO:P9:12:OUT"){
+    field(DTYP, "devgpio")
+    field(OUT, "@60 H")
+}
