@@ -10,7 +10,10 @@ include $(TOP)/configure/CONFIG
 #----------------------------------------------------
 # Create and install (or just install) into <top>/db
 # databases, templates, substitutions like this
-DB += gpios.db
+DB += output.db
+DB += output.substitutions
+DB += input.db
+DB += input.substitutions 
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

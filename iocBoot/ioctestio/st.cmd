@@ -13,7 +13,9 @@ GpioConstConfigure("BEAGLEBONE BLACK")
 
 ## Load record instances
 #dbLoadRecords("../../db/testio.db","user=root")
-dbLoadRecords("../../db/gpios.db","user=root")
+#dbLoadRecords("../../db/gpios.db","user=root")
+dbLoadTemplate("../../db/output.substitutions")
+dbLoadTemplate("../../db/input.substitutions")
 
 iocInit()
 
