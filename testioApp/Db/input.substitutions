@@ -1,0 +1,4 @@
+file ../../db/input.db {
+    pattern	{Sys,		Pin, 	Logic,	Desc 	}
+		{"BBB01",	"30",	"H",	"In 30 BeagleBone"	}
+}

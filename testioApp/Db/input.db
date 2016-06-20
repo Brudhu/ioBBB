@@ -1,0 +1,8 @@
+record(bi, "$(Sys){GPIO:$(Pin)}IN"){
+    field(DTYP, "devgpio")
+    field(DESC, "$(Desc)")
+    field(INP, "@$(Pin) $(Logic)")
+    field(SCAN, "I/O Intr")
+    field(ZNAM, "OFF")
+    field(ONAM, "ON")
+}

@@ -1,0 +1,5 @@
+file ../../db/output.db {
+    pattern	{Sys,	  	Pin, 	Logic, 	Desc}
+		{"BBB01",	"60",	"H",	"Out 60 BeagleBone"}
+#		{"BBB01", 	"56",	"H"	""}
+}
