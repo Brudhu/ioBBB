@@ -1,4 +1,5 @@
 file ../../db/input.db {
-    pattern	{Sys,		Pin, 	Logic,	Desc 	}
-		{"BBB01",	"30",	"H",	"In 30 BeagleBone"	}
+    pattern	{Sys,		Pin, 	Logic,	Type,		Desc 	}
+		{"BBB01",	"30",	"H",	"GPIO"		"In 30 BeagleBone"	}
+		{"BBB01",	"31",	"H",	"MOTION"	"Motion Sensor In 31"	}
 }

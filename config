@@ -1,0 +1,7 @@
+NAME=ioBBB
+PORT=4052
+
+HOST=beaglebone
+
+CHDIR="$CHDIR/iocBoot/iotestio"
+EXEC="$CHDIR/st.cmd"
